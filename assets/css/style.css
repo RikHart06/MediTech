@@ -756,6 +756,51 @@ h6 {
   bottom: 0;
 }
 
+#us {
+  padding: 60px 0;
+}
+
+#us .details h2 {
+  color: #112363;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#us .details .social {
+  margin-bottom: 15px;
+}
+
+#us .details .social a {
+  background: #e9edfb;
+  color: #112363;
+  line-height: 1;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#us .details .social a:hover {
+  background: #f82249;
+  color: #fff;
+}
+
+#us .details .social a i {
+  font-size: 16px;
+  line-height: 0;
+}
+
+#us .details p {
+  color: #112363;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
 #speakers-details {
   padding: 60px 0;
 }
