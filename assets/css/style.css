@@ -752,6 +752,21 @@ h6 {
   color: #fff;
 }
 
+#customers h4 {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+  color: rgba(29, 29, 27, 1);;
+}
+
+#customers p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: rgba(29, 29, 27, 0.95);;
+}
+
+
 /*--------------------------------------------------------------
 # Speakers Section
 --------------------------------------------------------------*/
