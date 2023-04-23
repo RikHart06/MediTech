@@ -660,8 +660,20 @@ h6 {
   padding: 60px 0 40px 0;
 }
 
+#projects {
+  background: url("../img/hero-bg1.jpg");
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  padding: 60px 0 40px 0;
+}
+
 @media (min-width: 1024px) {
   #solutions {
+    background-attachment: fixed;
+  }  
+  #projects {
     background-attachment: fixed;
   }
 }
@@ -692,6 +704,45 @@ h6 {
 }
 
 #solutions p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+#projects:before {
+  content: "";
+  background: rgba(13, 20, 41, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#projects h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+#projects h3 {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+#projects h4 {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+  color: #fff;
+}
+
+#projects p {
   font-size: 14px;
   margin-bottom: 20px;
   color: #fff;
@@ -1685,11 +1736,11 @@ h6 {
 }
 
 .meditech-blue{
-  color: #27b6e2;
+  color: #27b6e2 !important;
 }
 
 .meditech-black{
-  color: rgb(29, 29, 27);
+  color: rgb(29, 29, 27) !important;
   font-weight: 500;
 }
 
