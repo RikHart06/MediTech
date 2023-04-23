@@ -73,7 +73,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #f82249;
+  background: #27b6e2;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -87,7 +87,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #f94a6a;
+  background: #1e8dfa;
   color: #fff;
 }
 
@@ -1467,7 +1467,7 @@ h6 {
   font-size: 48px;
   display: inline-block;
   margin-bottom: 10px;
-  color: #f82249;
+  color: #1e8dfa;
 }
 
 #contact .contact-info address,
@@ -1655,7 +1655,7 @@ h6 {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #f82249;
+  background: #27b6e2;
   color: #fff;
 }
 
@@ -1751,11 +1751,12 @@ h6 {
 }
 
 .contact-info .meditech-blue {
+  color: rgb(29, 29, 27) !important;
   font-weight: bold !important;
 }
 
 .contact-info .meditech-blue:hover {
-  color: rgb(29, 29, 27) !important;
+  color: #27b6e2 !important;
   font-weight: bold !important;
 }
 
