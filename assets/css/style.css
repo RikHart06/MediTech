@@ -184,7 +184,7 @@ h6 {
 }
 
 @media (max-width: 992px) {
-  #header #logo img {
+  #header img {
     max-height: 30px;
   }
 }
@@ -381,6 +381,10 @@ h6 {
   .navbar ul {
     display: none;
   }
+  
+  #navbar-wa {
+    display: none;
+  }
 }
 
 .navbar-mobile {
@@ -434,7 +438,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover > a {
-  color: #f82249;
+  color: #27B6E2;
 }
 
 .navbar-mobile .getstarted,
