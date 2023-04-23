@@ -720,7 +720,18 @@
 
       $("#customersOwl").owlCarousel({
         loop: true,
-        items: 4
+        responsive: {
+          // breakpoint from 0 up
+          0: {
+            items: 2,
+            margin: 15
+          },
+          // breakpoint from 768 up
+          768: {
+            items: 4,
+            margin: 25
+          }
+        }
       });
 
 
