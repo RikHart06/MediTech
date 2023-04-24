@@ -275,7 +275,7 @@ h6 {
   position: absolute;
   width: 0;
   height: 2px;
-  bottom: -6px;
+  bottom: -1px;
   left: 0;
   background-color: #59b2e7;
   visibility: hidden;
@@ -1588,7 +1588,18 @@ h6 {
   cursor: pointer;
 }
 
-#contact .php-email-form button[type="submit"]:hover {
+.cotizaBtn  {
+  background: #59b2e7;
+  font-weight: bold;
+  border: 0;
+  padding: 6px 20px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.cotizaBtn:hover {
   background: #1e8dfa;
 }
 
