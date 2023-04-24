@@ -1806,7 +1806,8 @@ h6 {
 
 .mi-vineta {
   list-style-type: none; /* Eliminar las viñetas predeterminadas */
-  padding-left: 20px; /* Agregar espacio a la izquierda para las viñetas */
+  padding-left: 20px; /* Agregar espacio a la izquierda para las viñetas */  
+  color: #fff;
 }
 
 .mi-vineta li::before {
