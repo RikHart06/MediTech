@@ -73,7 +73,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #27b6e2;
+  background: #59b2e7;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -110,7 +110,7 @@ h6 {
   display: block;
   width: 60px;
   height: 5px;
-  background: #27b6e2;
+  background: #59b2e7;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -277,7 +277,7 @@ h6 {
   height: 2px;
   bottom: -6px;
   left: 0;
-  background-color: #27b6e2;
+  background-color: #59b2e7;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -438,7 +438,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover > a {
-  color: #27B6E2;
+  color: #59b2e7;
 }
 
 .navbar-mobile .getstarted,
@@ -537,7 +537,7 @@ h6 {
 }
 
 #hero h1 span {
-  color: #27b6e2;
+  color: #59b2e7;
 }
 
 @media (max-width: 991px) {
@@ -1471,7 +1471,7 @@ h6 {
   font-size: 48px;
   display: inline-block;
   margin-bottom: 10px;
-  color: #1e8dfa;
+  color: #59b2e7;
 }
 
 #contact .contact-info address,
@@ -1579,7 +1579,7 @@ h6 {
 }
 
 #contact .php-email-form button[type="submit"] {
-  background: #27b6e2;
+  background: #59b2e7;
   border: 0;
   padding: 10px 40px;
   color: #fff;
@@ -1659,7 +1659,7 @@ h6 {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #27b6e2;
+  background: #59b2e7;
   color: #fff;
 }
 
@@ -1751,7 +1751,7 @@ h6 {
 }
 
 .meditech-blue {
-  color: #27b6e2 !important;
+  color: #59b2e7 !important;
 }
 
 .contact-info .meditech-blue {
@@ -1760,7 +1760,7 @@ h6 {
 }
 
 .contact-info .meditech-blue:hover {
-  color: #27b6e2 !important;
+  color: #59b2e7 !important;
   font-weight: bold !important;
 }
 
@@ -1800,7 +1800,7 @@ h6 {
 
 .mi-vineta li::before {
   content: "\2022"; /* Código unicode para la viñeta */
-  color: #27b6e2; /* Cambiar el color de la viñeta a rojo */
+  color: #59b2e7; /* Cambiar el color de la viñeta a rojo */
   display: inline-block; /* Mostrar la viñeta como un elemento en línea */
   width: 1em; /* Establecer el ancho de la viñeta */
   margin-left: -1em; /* Alinear la viñeta a la izquierda */
